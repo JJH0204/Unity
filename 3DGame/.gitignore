@@ -1,0 +1,78 @@
+# Unity generated folders and files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Ignore Addressables Packed Data
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignore Asset Store Tools
+/[Aa]ssets/AssetStoreTools*
+
+# JetBrains Rider generated files
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio and IDE-specific files
+.vs/
+.gradle/
+.vscode/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity crash reports and debug files
+sysinfo.txt
+crashlytics-build.properties
+
+# Unity meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Auto-generated Lighting Data
+/[Aa]ssets/[Ll]ighting[Dd]ata[.]asset
+
+# Auto-generated Addressable Asset Groups Schema and Data
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/AddressableAssetSettings.asset
+/[Aa]ssets/[Aa]ssets[Dd]ata/[Gg]roups/*
+
+# Thumbnails and other Unity-generated preview files
+/[Ll]ibrary/ThumbnailCache/*
+/[Tt]humbnails/
+
+# Shader cache files
+/[Ll]ibrary/ShaderCache/
+
+# Auto-generated Visual Studio Code workspace files
+*.code-workspace
+
+# Unity's Package Manager folders
+/[Pp]ackages/com.unity.*
