@@ -531,6 +531,10 @@ MonoBehaviour:
   cameraDistance: 10
   cameraHeight: 5
   cameraAngle: 25
+  zoomSpeed: 2
+  minCameraDistance: 5
+  maxCameraDistance: 20
+  rotationSpeed: 3
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
