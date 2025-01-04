@@ -6,10 +6,11 @@ public enum EnemyPersonality
     Peaceful     // 온순
 }
 
-public class Enemy : MonoBehaviour
+public class Enemy : Character
 {
+    // 적 캐릭터의 감지 범위
     [SerializeField] private float detectionRadius = 10f;
-    [SerializeField] private float moveSpeed = 5f;
+    // 적 캐릭터의 성격 (열거형으로 정의)
     [SerializeField] private EnemyPersonality personality;
     
     private Transform playerTransform;
@@ -70,5 +71,16 @@ public class Enemy : MonoBehaviour
     {
         wasAttacked = true;
         attackerTransform = attacker;
+    }
+
+    public override void Attack(Character target)
+    {
+        // 타겟의 체력을 공격력만큼 감소
+        target.TakeDamage(power);
+    }
+
+    public override void Move(Vector3 movement)
+    {
+        // 적 캐릭터는 이동하지 않음
     }
 }

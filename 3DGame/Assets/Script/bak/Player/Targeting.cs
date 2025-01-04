@@ -7,7 +7,7 @@ public interface ITargetable
     void OnTargeted();
     void OnUntargeted();
 }
-
+    
 public class Targeting : MonoBehaviour
 {
     public GameObject target;
