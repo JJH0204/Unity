@@ -1,0 +1,86 @@
+# Build 결과물
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VSCode
+.vscode/
+
+# 기타 불필요한 파일
+*.lock.json
+*.tmp
+*.bak
+*.swp
+*.lock
+*.log
+
+# Unity 관련 파일
+*.pidb
+*.suo
+*.user
+*.userprefs
+# *.csproj
+*.unityproj
+*.asset
+# *.sln
+*.svd
+*.unitypackage
+
+# Unity 빌드 결과 및 캐시
+Library/
+Temp/
+Logs/
+obj/
+Build/
+Builds/
+UserSettings/
+MemoryCaptures/
+
+# Unity StreamingAssets
+Assets/StreamingAssets/**/*.meta
+Assets/StreamingAssets/**/*.bin
+Assets/StreamingAssets/**/*.manifest
+Assets/StreamingAssets/**/*.pdb
+Assets/StreamingAssets/**/*.resS
+Assets/StreamingAssets/**/*.resource
+Assets/StreamingAssets/**/*.assets
+
+# Unity Collaborate 및 Plastic SCM
+.collab/
+*.plastic/
+*.plasticignore
+
+# Unity PlayerPrefs
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/TagManager.asset
+ProjectSettings/ProjectVersion.txt
+
+# TextMesh Pro
+*.tmpro
+
+# IDE 및 에디터 설정
+.idea/
+
+# OS 파일
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# 빌드된 실행 파일
+*.apk
+*.aab
+*.exe
+*.app
+*.ipa
+*.xcodeproj
+*.xcworkspace
+
+# Unity Packages
+Packages/

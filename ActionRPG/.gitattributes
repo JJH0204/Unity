@@ -1,0 +1,63 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.cs text eol=lf
+*.csproj text eol=lf
+*.sln text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.scss text eol=lf
+*.less text eol=lf
+*.svg text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.bz2 binary
+*.7z binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.pdb binary
+*.mdb binary
+*.apk binary
+*.ipa binary
+*.mp4 binary
+*.mp3 binary
+*.wav binary
+*.flac binary
+*.ogg binary
+*.m4a binary
+*.avi binary
+*.mov binary
+*.wmv binary
+*.webm binary
+*.mpg binary
+*.mpeg binary
+*.mkv binary
+*.flv binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+*.pdf binary
+*.epub binary
+*.mobi binary
+*.azw3 binary
+*.epub binary
+*.azw binary
